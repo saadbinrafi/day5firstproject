@@ -1,0 +1,65 @@
+/* common sheared style */
+/* nab releted style */
+
+body{ 
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.r{
+    color: orange;
+}
+
+.s{
+    color: orange;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li { 
+    list-style: none;
+
+
+   
+}
+nav a{
+
+    text-decoration: none;
+    color: dimgray;
+    margin-left: 50px; 
+}
+button{
+    background-color: orange;
+    color: aliceblue;
+    font-size: 20px;
+    border: 0;
+    padding: 15px 3opx;
+
+}
+
+
+
+
+
+
+
+
+

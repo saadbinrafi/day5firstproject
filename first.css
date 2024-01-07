@@ -12,6 +12,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
+
+
 }
 .nav-title {
 
@@ -26,9 +29,7 @@ nav{
     color: orange;
 }
 
-.s{
-    color: orange;
-}
+
 
 nav > ul{
     display: flex;
@@ -53,6 +54,39 @@ button{
     border: 0;
     padding: 15px 3opx;
 
+}
+
+
+/* header releted style */
+
+.header{
+    background-color: azure
+    
+
+
+}
+
+.benner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+
+    color: rgb(32, 25, 88);
+    font-size: 20px;
+    border: 0;
+    padding: 15px 3opx;
+
+
+}
+
+.bimage{
+    width: 400px;
+    height: 500px;
+    
+    
 }
 
 

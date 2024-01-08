@@ -48,7 +48,7 @@ nav a{
     margin-left: 50px; 
 }
 .suich{
-    background-color: orange;
+    background-color: rgb(108, 31, 180);
     color: aliceblue;
     font-size: 20px;
     border: 0;
@@ -67,7 +67,7 @@ nav a{
 /* header releted style */
 
 .header{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(236, 240, 230);
     /* background-image: url(first-images/backimg.jpg); */
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -220,15 +220,17 @@ main{
 
 .summary{
   
-    padding: 30px 150px;
-    text-align: center;
-
-
+    padding: 30px 120px;
+    text-align: left;
+    display: flex;
+    gap: 50px;
+    text-decoration: 2em;
 
 }
 .summary-header{
 
     padding: 30px 150px;
+    
     
 
 }
@@ -236,7 +238,8 @@ main{
 
     text-align: center;
     padding: 30px 150px;
-
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .summary-hed{
@@ -246,6 +249,74 @@ main{
 
 
 }
+
+.summary-colum{
+    border-bottom: 1px solid rgb(51, 51, 53);
+}
+
+.button{
+    text-align: center;
+    background-color:rgb(108, 31, 180);
+    color: aliceblue;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 1px solid rgb(51, 51, 53);
+
+}
+
+.cv-button{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Leat's start the footer style */
+
+
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color:rgb(236, 240, 230);
+    margin-top: 100px;
+    padding: 130px 200px;
+   
+
+}
+
+.mein-footer{
+   
+
+}
+
+.footer-collum{
+    width: 50%;
+    
+    
+
+}
+
+.contact input[type="text"], .contact input[type="email"], 
+textarea{
+    display: block;
+    margin-bottom: 22px;
+    padding: 10px 35px;
+    background-color: azure;
+    border-radius: 5px;
+    width: 100%;
+   
+}
+
+.social-link a{
+    margin-left:10px ;
+
+
+}
+
+
+
 
 
 
